@@ -1,4 +1,4 @@
-const API_URL = 'http://api.weatherapi.com/v1/current.json?key=4db60e619ca54c53807102620220104&q=';
+const API_URL = 'https://api.weatherapi.com/v1/current.json?key=4db60e619ca54c53807102620220104&q=';
 const main = document.getElementById("main");
 const form = document.getElementById('form');
 const search = document.getElementById('search');
