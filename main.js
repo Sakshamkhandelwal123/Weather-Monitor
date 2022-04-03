@@ -15,7 +15,7 @@ async function getCity(cityname) {
 function createCityCard(city) {
     const cardHTML = `
         <div class="card">
-            <div>
+            <div class="avt">
                 <img src="${city.current.condition.icon}" alt="${city.current.condition.icon}" class="avatar">
             </div>
             <div class="card-info">
